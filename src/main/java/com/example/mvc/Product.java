@@ -1,17 +1,18 @@
 package com.example.mvc;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
+
     private String name;
+
     private double price;
 
-    public Product(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-    public Product() {
-    }
 }
