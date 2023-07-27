@@ -1,4 +1,5 @@
-package com.example.mvc;
+package com.example.mvc.service;
+import com.example.mvc.model.Product;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,7 @@
-package com.example.mvc;
+package com.example.mvc.controller;
 
+import com.example.mvc.model.Product;
+import com.example.mvc.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
